@@ -70,12 +70,20 @@ a:visited{
     display: flex;
     flex-direction: column;
     max-width: 700px;
+    min-width: 600px;
 }
 
-.kitty{
-    width: 500px;
-    height: auto;
+.kitty, .fish, .volleyball{
+    width: 600px;
+    height: 400px;
     padding: 30px;
+}
+
+.volleyball{
+    width: 600px; 
+    height: 400px; 
+    object-fit: cover;
+    object-position: 25% 25%; 
 }
 
 .mainbutton{
