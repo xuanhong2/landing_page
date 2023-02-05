@@ -64,10 +64,12 @@ a:visited{
     color: #e5e7eb;
 }
 
-/*.herocontainer{
+.herocontainer{
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
-}*/
+}
 
 .kitty{
     width: 500px;
