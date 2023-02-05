@@ -89,13 +89,16 @@ a:visited{
     object-position: 25% 25%; 
 } No space on mainpage, may be used in About Me!*/
 
-.mainbutton{
-    font-size: 42px;
+.mainbutton, .infobutton{
     font-weight: 900;
     background-color: #3882f6;
     border-radius: 20px;
     border: none;
     padding: 10px 30px;
+}
+
+.mainbutton{
+    font-size: 42px;
 }
 
 /*This section will be for information*/
@@ -110,6 +113,24 @@ a:visited{
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+}
+
+.iconcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 52px;
+}
+
+.infobutton{
+    font-size: 20px;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
 }
 
 /*This section will be for the quote*/
