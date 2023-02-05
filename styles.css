@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(146, 112, 112);
+    color: rgb(21, 219, 203);
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 32px;
+    padding: 0 40px;
+}
+
+
+.header-links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 40px;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+}
