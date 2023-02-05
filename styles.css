@@ -199,6 +199,8 @@ a:visited{
 }
 
 .ftextcontainer{
+    max-width: 500px;
+    height: 150px;
     padding: 36px;
     background-color: #3882f6;
     border-radius: 20px;
@@ -206,15 +208,25 @@ a:visited{
 
 .social{
     font-size: 64px;
-    padding-bottom: 0;
+    margin-top: 20px;
 }
 
 ion-icon{
     color: white;
 }
 
-.social:hover{
-    color: #3882f6;
+/*This section will style the footer*/
+
+.footcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.footer{
+    padding: 30px;
+    color: #F9FAF8;
 }
 
 
