@@ -1,3 +1,14 @@
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/*This section mainly styles the header*/
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -6,13 +17,13 @@
 
 .logo{
     font-weight: 900;
-    font-size: 32px;
+    font-size: 24px;
     padding: 0 40px;
-    color: white;
+    color: #F9faf8;
 }
 
-
 .header-links{
+    font-size: 18px;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -26,9 +37,44 @@ ul{
 
 a{
     text-decoration: none;
-    color: aquamarine;
 }
 
 a:visited{
-    color: aquamarine;
+    color: #e5e7eb;
 }
+
+/*This section will style the "hero" text*/
+
+.body{
+    padding: 50px;
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: space-between;
+}
+.heromain{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.herosecond{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.kitty{
+    width: 500px;
+    height: auto;
+    padding: 30px;
+}
+
+.mainbutton{
+    font-size: 42px;
+    font-weight: 900;
+    background-color: #3882f6;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 30px;
+}
+
